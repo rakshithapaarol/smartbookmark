@@ -98,4 +98,4 @@ Visit [http://localhost:3000](http://localhost:3000).
    - `NEXT_PUBLIC_SUPABASE_ANON_KEY`
    - `NEXT_PUBLIC_SITE_URL` = `https://your-app.vercel.app`
 4. Add `https://your-app.vercel.app/auth/callback` to Supabase **Redirect URLs**.
-5. Deploy.
+5.  Deploy.
