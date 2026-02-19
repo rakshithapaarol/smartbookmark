@@ -43,7 +43,7 @@ export async function middleware(request: NextRequest) {
     await supabase.auth.getUser();
 
     return supabaseResponse;
-  } catch (error) {
+   } catch (error) {
     console.error("Supabase middleware failed", error);
     return NextResponse.next();
   }
